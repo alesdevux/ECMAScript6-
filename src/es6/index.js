@@ -41,3 +41,18 @@ Morbi sodales rutrum leo, eu.
 Praesent volutpat, eros non faucibus. 
 `;
 console.log(loremES6);
+
+
+// DESESTRUCTURACÓN DE ELEMENTOS
+let person =  {
+  'name': 'Ales',
+  'edad': 25,
+  'country': 'CA'
+}
+
+// Antes 
+console.log(person.name, person.edad, person.country);
+
+// Con ES6
+let {name, edad} = person;
+console.log(name, edad);
