@@ -106,3 +106,31 @@ objetoES6 = {
   age
 }
 console.log(objetoES6);
+
+
+// ARROW FUNCTIONS
+const names = [
+  {name: 'Ales', age: 25},
+  {name: 'Oscar', age: 32},
+  {name: 'Yesica', age: 27},
+];
+
+// Antes 
+let listOfNames = names.map(function (param) {
+  console.log(param.name);
+});
+
+// Con ES6
+let listOfNamesES6 = names.map(item => console.log(item.name));
+
+const listOfNamesConstES6 = (name, age, country) => {
+  console.log(name);
+  console.log(age);
+  console.log(country);
+}
+
+const listOfNamesConstOneES6 = name => {
+  console.log(name);
+}
+
+const square = num => num * num;
