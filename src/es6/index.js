@@ -69,3 +69,21 @@ console.log(education);
 // Con ES6
 let educationES6 = ['David', ...team1, ...team2];
 console.log(educationES6);
+
+
+// VAR, LET y CONST
+{
+  var global = 'Soy una variable global';
+}
+
+{
+  let local = 'Soy una variable local';
+  console.log(`Desde local llamamos a ${local}`);
+}
+
+console.log(global);
+// console.log(local); // Nos da error al no poder acceder
+
+const constante = 'Soy constante';
+// constante = 'No soy constante'; // Nos da error al no poder modificar una constante
+console.log(constante);
