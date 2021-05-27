@@ -87,3 +87,22 @@ console.log(global);
 const constante = 'Soy constante';
 // constante = 'No soy constante'; // Nos da error al no poder modificar una constante
 console.log(constante);
+
+
+// OBJETOS (Cuando tienen el mismo nombre las keys que las variables)
+let name = 'Ales';
+let age = 25;
+
+// Antes 
+objeto = {
+  name: name,
+  age: age
+}
+console.log(objeto);
+
+// Con ES6
+objetoES6 = {
+  name,
+  age
+}
+console.log(objetoES6);
