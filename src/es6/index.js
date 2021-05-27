@@ -179,3 +179,19 @@ console.log(calc.rest(7,5));
 // MÓDULOS
 import { hello } from './module';
 console.log(hello());
+
+
+// GENERADORES
+function* helloWorld() {
+  if (true) {
+    yield 'Hello, ';
+  }
+  if (true) {
+    yield 'World';
+  }
+}
+
+const generatorHello = helloWorld();
+console.log(generatorHello.next().value); // Hello, 
+console.log(generatorHello.next().value); // World
+console.log(generatorHello.next().value); // undefined 
