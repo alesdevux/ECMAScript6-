@@ -174,3 +174,8 @@ class calculator {
 const calc = new calculator();
 console.log(calc.sum(2,2));
 console.log(calc.rest(7,5));
+
+
+// MÓDULOS
+import { hello } from './module';
+console.log(hello());
