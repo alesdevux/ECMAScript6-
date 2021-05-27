@@ -56,3 +56,16 @@ console.log(person.name, person.edad, person.country);
 // Con ES6
 let {name, edad} = person;
 console.log(name, edad);
+
+
+// OPERADOR DE PROPAGACIÓN
+let team1 = ['Ales', 'Oscar', 'Anna'];
+let team2 = ['Nalli', 'Adnaloi', 'Xia'];
+
+// Antes 
+let education = ['David', 'Ales', 'Oscar', 'Anna', 'Nalli', 'Adnaloi', 'Xia'];
+console.log(education);
+
+// Con ES6
+let educationES6 = ['David', ...team1, ...team2];
+console.log(educationES6);
