@@ -24,5 +24,20 @@ let tipicalFrase = hello + ' ' + world;
 console.log(tipicalFrase);
 
 // Con ES6
-let tipicalFrase2 = `${hello} ${world}`;
-console.log(tipicalFrase2);
+let tipicalFraseES6 = `${hello} ${world}`;
+console.log(tipicalFraseES6);
+
+
+// MULTILINEA
+
+// Antes 
+let lorem = 'Vestibulum ante ipsum primis in.\n'
+  + 'Nullam eu mi et ligula.';
+console.log(lorem);
+
+// Con ES6
+let loremES6 = `
+Morbi sodales rutrum leo, eu.
+Praesent volutpat, eros non faucibus. 
+`;
+console.log(loremES6);
