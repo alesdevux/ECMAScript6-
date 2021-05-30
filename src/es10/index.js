@@ -16,3 +16,11 @@ console.log(hello.trimStart());
 let hello = 'hello world            ';
 console.log(hello);
 console.log(hello.trimEnd());
+
+
+// try con el error ya disponible en el scope de catch 
+try {
+
+} catch {
+  error
+}
