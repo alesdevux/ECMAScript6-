@@ -1,0 +1,1 @@
+Curso sobre [ECMAScript 6+](https://platzi.com/clases/ecmascript-6/ "ECMAScript 6+") de [Platzi](https://platzi.com/ "Platzi") impartido por [Oscar Barajas Tavares](https://github.com/gndx "Oscar Barajas Tavares").
