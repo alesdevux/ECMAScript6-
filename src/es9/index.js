@@ -6,6 +6,15 @@ const obj = {
 };
 
 let {nick, ...all} = obj;
-console.log(nick, all);
-console.log(`name: ${nick}`);
-console.log(all);
+// console.log(nick, all);
+// console.log(`name: ${nick}`);
+// console.log(all);
+
+
+// Propagation Properties
+const obj1 = {
+  ...obj,
+  github: 'aleswebgit',
+  twitter: 'alesweb'
+};
+console.log(obj1);
