@@ -24,3 +24,8 @@ try {
 } catch {
   error
 }
+
+
+// Object.fromEntries
+let entries = [['name', 'Ales'], ['age', 25]];
+console.log(Object.fromEntries(entries));
